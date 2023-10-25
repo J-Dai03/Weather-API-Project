@@ -32,3 +32,7 @@ Better JSON Data Extraction:
   Getting an appropriate name for the key of each Dictionary entry could be difficult - snow in the last hour and rain in the last hour both have the key "1h", but the first is in the JSONObject accessed with the key "snow", and the second is in the JSONObject accessed with the key "rain".
     We could use a concatenation of the keys used to reach the value in the first place, but it would require a special character/group of charcters that can't appear in the keys in order to seperate each level of recursion. 
       We need the special character/group of charcters, or we could get a situation where mains.now and main.snow would have the same key. While such a situation is unlikely, it is a possibilty that cannot be ignored.
+
+NOTE: There are 2 reasons everything was uploaded at once. 
+Firstly, because I used my university account's OneDrive instead of GitHub, as it to allowed me to access the project from the university computers without logging into GitHub. 
+Secondly, because I was being paranoid about accidently publishing my API key. While I doubt anyone would use someone else's API key if an equivalent could be aquired for free, I felt like I should get in the habit of trying very hard at keeping them secret.
