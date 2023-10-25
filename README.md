@@ -14,14 +14,14 @@ I have many possible ideas for upgrades for the system, but I have already spent
 Note: Testing being cut short, not all ways of backing out have been thoroghly tested.
 
 Possible upgrades to the program:
-  Adding more UI options, other than the console
-  Allowing the user to see more details about the location selected when selecting via coordinates - this could be done with the OpenWeather Reverse Geocoding API
-  Showing the location data and weather data next to each other.
-  Showing more weather data - wind direction and air pressure are provided by the API, but I didn't extract the data.
-  Extracting the weather data from the JSONObject could be done with a more maintainable recursive function - See the "Better JSON Data Extraction" section for more details.
-  The JSON could be handled with something more modern like GSON or Jackson instead of json.sinmple
-  The functions that get the coordinates (getCoordsByCode, getCoordsByName, and getCoordsDirectly) could return a tuple of 2 doubles and a boolean to signify the coordinates and whether or not the user backed out or not, instead of returning a container class.
-  A better way of storing zipcodes and states of a location - currently they are stored in the same String variable, and a boolean named stateNotZip is used to determine which it is.
+ - Adding more UI options, other than the console
+ - Allowing the user to see more details about the location selected when selecting via coordinates - this could be done with the OpenWeather Reverse Geocoding API
+ - Showing the location data and weather data next to each other.
+ - Showing more weather data - wind direction and air pressure are provided by the API, but I didn't extract the data.
+ - Extracting the weather data from the JSONObject could be done with a more maintainable recursive function - See the "Better JSON Data Extraction" section for more details.
+ - The JSON could be handled with something more modern like GSON or Jackson instead of json.sinmple
+ - The functions that get the coordinates (getCoordsByCode, getCoordsByName, and getCoordsDirectly) could return a tuple of 2 doubles and a boolean to signify the coordinates and whether or not the user backed out or not, instead of returning a container class.
+ - A better way of storing zipcodes and states of a location - currently they are stored in the same String variable, and a boolean named stateNotZip is used to determine which it is.
 
 Better JSON Data Extraction:
   I didn't do this because of time constraints and because it would require getting a better understanding of json.simple, which I would rather replace with gson or Jackson instead.
