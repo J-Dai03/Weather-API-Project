@@ -1,9 +1,11 @@
 # Weather-API-Project
 A program I created to practice and learn using APIs and handling JSON.
 
-The program uses the OpenWeather API and thus requires a key from them. 
-At time of writing, a free subscription with all the permissions needed for this API is available (See https://openweathermap.org/price)
-The key is installed in the APIKeyManager file. Simply open it in a text editor or code editor and copy in the key you get from OpenWeather.
+IMPORTANT: 
+ - The program uses the OpenWeather API and thus requires a key from them. 
+    At time of writing, a free subscription with all the permissions needed for this API is available (See https://openweathermap.org/price)
+    The key is installed in the APIKeyManager file. Simply open it in a text editor or code editor and copy in the key you get from OpenWeather.
+ - The program does use json.simple, so make sure you have the .jar file installed
 
 Creating this program helped me practice coding, debugging, API interactions, inheritance, polymorphism, and more.
 
