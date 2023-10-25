@@ -24,6 +24,7 @@ Possible upgrades to the program:
  - A better way of storing zipcodes and states of a location - currently they are stored in the same String variable, and a boolean named stateNotZip is used to determine which it is.
 
 Better JSON Data Extraction:
+
   I didn't do this because of time constraints and because it would require getting a better understanding of json.simple, which I would rather replace with gson or Jackson instead.
   A better implementation would be to make a recursive function, which would try and extract the data for each key. 
   If the data is a string or a double or int, the result would be written to the Dictionary.
