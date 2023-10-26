@@ -22,7 +22,8 @@ Possible upgrades to the program:
  - The JSON could be handled with something more modern like GSON or Jackson instead of json.sinmple
  - The functions that get the coordinates (getCoordsByCode, getCoordsByName, and getCoordsDirectly) could return a tuple of 2 doubles and a boolean to signify the coordinates and whether or not the user backed out or not, instead of returning a container class.
  - A better way of storing zipcodes and states of a location - currently they are stored in the same String variable, and a boolean named stateNotZip is used to determine which it is.
-
+ - Add the option to choose to re-enter the country code when entering the zip code.
+ - Add the option to choose to re-enter the latitude when entering the longitude.
 Better JSON Data Extraction:
 
   I didn't do this because of time constraints and because it would require getting a better understanding of json.simple, which I would rather replace with gson or Jackson instead.
