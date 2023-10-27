@@ -35,6 +35,8 @@ I have many possible ideas for upgrades for the system, but I have already spent
 - For the select by coordinates feature, we could add the option to choose to re-enter the latitude when entering the longitude.
 - Allowing the user to enter their own API key after compilation
   - Currently, the key needs to be maunally installed before compilation by opening the APIKeyManager.java file in a text editor or a code editor, and copying in the key to the directed location.
+- We could make it more obvious at a glance what information we are asking to the user to enter
+  -  The prompt given to the user when asking them to input data could be customised for each unique piece of information requested
 
 ### Better JSON Data Extraction:
 
