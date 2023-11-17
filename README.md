@@ -14,9 +14,6 @@ A program I created to practice and learn using APIs, though I learned quite a b
 - Due to testing being cut short, not all ways of backing out have been thoroghly tested.
 
 
-I have many possible ideas for upgrades for the system, but I have already spent quite a lot time on this project, when I reached the free subscription's request limit during testing, I decided it was time to stop. On a sidenote, the response I reached the limit was: {"cod":429, "message": "Your account is temporary blocked due to exceeding of requests limitation of your subscription type. Please choose the proper subscription https://openweathermap.org/price"}.
-
-
 ## Possible upgrades to the program:
 - Adding more UI options.
   - Currently, the only way to use the program is with the console/terminal.
