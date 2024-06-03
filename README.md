@@ -8,10 +8,10 @@ A program I created to practice and learn using APIs, though I learned quite a b
 - The program does use json.simple, so make sure you have the .jar file installed
 - There are 2 reasons everything was uploaded at once. 
   1. Firstly, because I used my university account's OneDrive instead of GitHub, as it to allowed me to access the project from the university computers without logging into GitHub. 
-  2. Secondly, because I was being paranoid about accidently publishing my API key. While I doubt anyone would use someone else's API key if an equivalent could be aquired for free, I felt like I should get in the habit of trying very hard at keeping them secret.
+  2. Secondly, because I was being paranoid about accidently publishing my API key. While I doubt anyone would use someone else's API key if an equivalent could be acquired for free, I felt like I should get in the habit of trying very hard at keeping them secret.
 - I have many possible ideas for upgrades for the system, but I have already spent quite a lot time on this project. When I reached the free subscription's request limit during testing, I decided it was time to stop. On a sidenote, the response I reached the limit was:  
 > {"cod":429, "message": "Your account is temporary blocked due to exceeding of requests limitation of your subscription type. Please choose the proper subscription https://openweathermap.org/price"}.
-- Due to testing being cut short, not all ways of backing out have been thoroghly tested.
+- Due to testing being cut short, not all ways of backing out have been thoroughly tested.
 
 
 ## Possible upgrades to the program:
